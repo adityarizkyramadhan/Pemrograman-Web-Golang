@@ -1,0 +1,23 @@
+@BASE_URL=http://localhost:8080
+
+
+### Get the list of all task
+GET {{BASE_URL}}/task/list
+
+### Get the id of the task
+GET {{BASE_URL}}/task/get/1
+
+### Get the id of the task
+GET {{BASE_URL}}/task/get/jkj
+
+### Create a new task
+PUT {{BASE_URL}}/task/update/1
+Content-Type: application/json
+
+{
+    "title": "Task 1",
+    "deadline": "2023-06-30",
+    "priority": 2,
+    "category_id": 1,
+    "status": "In Progress"
+}

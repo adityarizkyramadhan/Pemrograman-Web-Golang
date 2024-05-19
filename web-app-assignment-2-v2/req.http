@@ -1,0 +1,5 @@
+@BASEURL=localhost:3000
+
+### Task per user
+GET localhost:8080/user/tasks?user_id=1
+Cookie: session_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3MTQ4NDA5NDF9.0ccHe2FoIy_aEeOYmvH1gtHH7CrZQpnhtOW-KzmQC60
